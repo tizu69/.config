@@ -1,0 +1,21 @@
+* {
+    font-family: Arimo Nerd Font;
+    font-size: 14px;
+    margin: 0px;
+    font-weight: 500;
+    color: #cdd6f4;
+    background-color: transparent;
+}
+
+label,
+button {
+    padding: 2px 8px;
+    margin: 0px 2px;
+    background-color: #1e1e2e;
+    border-radius: 8px;
+}
+
+button > label {
+    padding: 0px;
+    margin: 0px;
+}
