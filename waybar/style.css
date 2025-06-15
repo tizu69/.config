@@ -1,21 +1,41 @@
 * {
-    font-family: Arimo Nerd Font;
-    font-size: 14px;
-    margin: 0px;
-    font-weight: 500;
-    color: #cdd6f4;
-    background-color: transparent;
+  font-family: Arimo Nerd Font;
+  font-size: 14px;
+  margin: 0px;
+  font-weight: 500;
+  color: #cdd6f4;
+}
+
+window#waybar {
+  background-color: #11111b;
 }
 
 label,
 button {
-    padding: 2px 8px;
-    margin: 0px 2px;
-    background-color: #1e1e2e;
-    border-radius: 8px;
+  padding: 6px;
 }
 
-button > label {
-    padding: 0px;
-    margin: 0px;
+#custom-weather.severe {
+  color: #f38ba8;
+}
+#custom-weather.sunnyDay {
+  color: #f9e2af;
+}
+#custom-weather.clearNight {
+  color: #b4befe;
+}
+#custom-weather.cloudyFoggyDay,
+#custom-weather.cloudyFoggyNight {
+  color: #bac2de;
+}
+#custom-weather.rainyDay,
+#custom-weather.rainyNight {
+  color: #74c7ec;
+}
+#custom-weather.snowyIcyDay,
+#custom-weather.snowyIcyNight {
+  color: #cdd6f4;
+}
+#custom-weather.default {
+  color: #f9e2af;
 }
