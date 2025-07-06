@@ -15,6 +15,33 @@ button {
   padding: 6px;
 }
 
+#custom-status.red {
+  color: #f38ba8;
+}
+@keyframes blink {
+  0% {
+    color: #f38ba8;
+  }
+  49% {
+    color: #f38ba8;
+  }
+  50% {
+    color: #cdd6f4;
+  }
+  99% {
+    color: #cdd6f4;
+  }
+  100% {
+    color: #f38ba8;
+  }
+}
+#custom-status.red-flash {
+  font-weight: bold;
+  animation-name: blink;
+  animation-duration: 500ms;
+  animation-iteration-count: infinite;
+}
+
 #custom-weather.severe {
   color: #f38ba8;
 }

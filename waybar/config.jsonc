@@ -2,7 +2,7 @@
   "layer": "top",
   "position": "top",
   "modules-left": ["tray"],
-  "modules-center": ["clock#1", "clock#2", "custom/weather"],
+  "modules-center": ["clock#1", "clock#2", "custom/weather", "custom/status"],
   "modules-right": ["memory", "cpu"],
 
   "tray": {
@@ -20,6 +20,11 @@
   "custom/weather": {
     "exec": "python ~/.config/waybar/scripts/weather.py",
     "restart-interval": 300,
+    "return-type": "json"
+  },
+  "custom/status": {
+    "exec": "python ~/.config/waybar/scripts/status.py",
+    "restart-interval": 3,
     "return-type": "json"
   },
 

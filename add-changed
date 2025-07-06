@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+say-and-run() {
+    echo "$ $1"
+    eval "$1"
+}
+
+say-and-run "git add ./add-changed ./waybar ./hypr ./wofi"
+say-and-run "git rm --cached ./hypr/monitors.conf"
