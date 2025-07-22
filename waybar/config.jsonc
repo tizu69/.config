@@ -14,7 +14,8 @@
     "tooltip": false
   },
   "clock#2": {
-    "format": "{:%I:%M %p}",
+    "format": "{:%I:%M:%S %p}",
+    "interval": 1,
     "tooltip": false
   },
   "custom/weather": {
