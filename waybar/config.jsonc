@@ -25,7 +25,7 @@
   },
   "custom/status": {
     "exec": "python ~/.config/waybar/scripts/status.py",
-    "restart-interval": 3,
+    "restart-interval": 10,
     "return-type": "json"
   },
 

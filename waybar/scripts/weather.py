@@ -7,7 +7,7 @@ import json, re
 # set your location_id
 # to get your location_id, go to https://weather.com & search for your location.
 # once you choose your location, you can see the location_id in the URL
-location_id = "2355888e52076fe39a2616d1423d554c76647d9c2f261e5b583918435bf6c42b"
+location_id = "923384cba96c0abcacb928de8bbe17a0ec29b0855bec918a63da0b6dbcda0d66"
 unit: Literal["metric", "imperial"] = "metric"
 forecast_type: Literal["Hourly", "Daily"] = "Hourly"
 
