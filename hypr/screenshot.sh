@@ -1,4 +1,5 @@
 grim -c -g "$(slurp)" - | magick png:- -shave 1x1 png:- | wl-copy -t image/png
+notify-send "Screenshot copied to clipboard"
 
 # | magick png:- -shave 1x1 \
 # png:- | magick png:- \
