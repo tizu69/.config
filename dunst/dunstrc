@@ -1,0 +1,26 @@
+[global]
+    mouse_left_click = do_action, close_current
+    mouse_middle_click = context, close_current
+    dmenu = /usr/bin/wofi -d -p "notification action"
+    browser = /usr/bin/google-chrome-unstable
+    startup_notification = false
+
+    origin = top-left
+    offset = (10, 10)
+    width = 256
+
+    padding = 6
+    horizontal_padding = 6
+    corner_radius = 8
+    frame_width = 0
+    gap_size = 3
+    progress_bar_corner_radius = 2
+    progress_bar_frame_width = 0
+    icon_corner_radius = 999
+    font = "Arial 12"
+
+[change-appearance]
+    urgency = normal
+    foreground = "#4c4f69"
+    background = "#eff1f5"
+    highlight = "#cba6f7"
