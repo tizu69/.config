@@ -5,5 +5,5 @@ say-and-run() {
     eval "$1"
 }
 
-say-and-run "git add ./add-changed ./waybar ./hypr ./wofi ./dunst"
+say-and-run "git add ./add-changed ./waybar ./hypr ./wofi ./dunst ./ghostty"
 say-and-run "git rm --cached ./hypr/monitors.conf"
