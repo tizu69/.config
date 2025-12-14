@@ -1,40 +1,43 @@
 {
-  "layer": "top",
-  "position": "top",
-  "modules-left": ["tray"],
-  "modules-center": ["clock#1", "clock#2", "custom/weather", "custom/status"],
-  "modules-right": ["memory", "cpu"],
+    "layer": "top",
+    "position": "top",
+    "modules-left": ["hyprland/workspaces", "tray"],
+    "modules-center": ["clock#1", "clock#2", "custom/weather", "custom/status"],
+    "modules-right": ["memory", "cpu"],
 
-  "tray": {
-    "icon-size": 20
-  },
+    "hyprland/workspaces": {
+        "active-only": true
+    },
+    "tray": {
+        "icon-size": 20
+    },
 
-  "clock#1": {
-    "format": "{:%a}",
-    "tooltip": false
-  },
-  "clock#2": {
-    "format": "{:%I:%M:%S %p}",
-    "interval": 1,
-    "tooltip": false
-  },
-  "custom/weather": {
-    "exec": "python ~/.config/waybar/scripts/weather.py",
-    "restart-interval": 300,
-    "return-type": "json"
-  },
-  "custom/status": {
-    "exec": "python ~/.config/waybar/scripts/status.py",
-    "restart-interval": 10,
-    "return-type": "json"
-  },
+    "clock#1": {
+        "format": "{:%a}",
+        "tooltip": false
+    },
+    "clock#2": {
+        "format": "{:%I:%M:%S %p}",
+        "interval": 1,
+        "tooltip": false
+    },
+    "custom/weather": {
+        "exec": "python ~/.config/waybar/scripts/weather.py",
+        "restart-interval": 300,
+        "return-type": "json"
+    },
+    "custom/status": {
+        "exec": "python ~/.config/waybar/scripts/status.py",
+        "restart-interval": 10,
+        "return-type": "json"
+    },
 
-  "memory": {
-    "interval": 5,
-    "format": " {}%"
-  },
-  "cpu": {
-    "interval": 5,
-    "format": " {usage:2}%"
-  }
+    "memory": {
+        "interval": 5,
+        "format": " {}%"
+    },
+    "cpu": {
+        "interval": 5,
+        "format": " {usage:2}%"
+    }
 }

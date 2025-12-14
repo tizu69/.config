@@ -1,68 +1,72 @@
 * {
-  font-family: Arimo Nerd Font;
-  font-size: 14px;
-  margin: 0px;
-  font-weight: 500;
-  color: #cdd6f4;
+    font-family: Arimo Nerd Font;
+    font-size: 14px;
+    margin: 0px;
+    font-weight: 500;
+    color: #cdd6f4;
 }
 
 window#waybar {
-  background-color: #11111b;
+    background-color: alpha(#1e1e2e, 0.7);
 }
 
 label,
 button {
-  padding: 6px;
+    padding: 6px;
+}
+
+#workspaces * {
+    padding: 0px 2px;
 }
 
 #custom-status.red {
-  color: #f38ba8;
+    color: #f38ba8;
 }
 @keyframes blink {
-  0% {
-    color: #f38ba8;
-  }
-  49% {
-    color: #f38ba8;
-  }
-  50% {
-    color: #cdd6f4;
-  }
-  99% {
-    color: #cdd6f4;
-  }
-  100% {
-    color: #f38ba8;
-  }
+    0% {
+        color: #f38ba8;
+    }
+    49% {
+        color: #f38ba8;
+    }
+    50% {
+        color: #cdd6f4;
+    }
+    99% {
+        color: #cdd6f4;
+    }
+    100% {
+        color: #f38ba8;
+    }
 }
 #custom-status.red-flash {
-  font-weight: bold;
-  animation-name: blink;
-  animation-duration: 500ms;
-  animation-iteration-count: infinite;
+    font-weight: bold;
+    animation-name: blink;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
 }
 
 #custom-weather.severe {
-  color: #f38ba8;
+    color: #f38ba8;
 }
 #custom-weather.sunnyDay {
-  color: #f9e2af;
+    color: #f9e2af;
 }
 #custom-weather.clearNight {
-  color: #b4befe;
+    color: #b4befe;
 }
 #custom-weather.cloudyFoggyDay,
 #custom-weather.cloudyFoggyNight {
-  color: #bac2de;
+    color: #bac2de;
 }
 #custom-weather.rainyDay,
 #custom-weather.rainyNight {
-  color: #74c7ec;
+    color: #74c7ec;
 }
 #custom-weather.snowyIcyDay,
 #custom-weather.snowyIcyNight {
-  color: #cdd6f4;
+    color: #cdd6f4;
 }
 #custom-weather.default {
-  color: #f9e2af;
+    color: #f9e2af;
 }
