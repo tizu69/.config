@@ -13,7 +13,7 @@ work_times = [
     [],  # Saturday
     [],  # Sunday
 ]
-bad_windows = ["vesktop"]
+bad_windows = []
 
 now = datetime.now()
 if work_times[now.weekday()]:
