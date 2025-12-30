@@ -1,6 +1,7 @@
 {
     "layer": "top",
     "position": "top",
+    "output": ["HDMI-A-1", "HDMI-A-2"],
     "modules-left": ["hyprland/workspaces", "tray"],
     "modules-center": ["clock#1", "clock#2", "custom/weather", "custom/status"],
     "modules-right": ["memory", "cpu"],
