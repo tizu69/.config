@@ -1,1 +1,8 @@
-
+*
+!./waybar
+!./hypr
+./hypr/monitors.conf
+!./wofi
+!./dunst
+!./ghostty
+!./gsettings.ini
